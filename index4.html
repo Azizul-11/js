@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            transition: transform 1s;
+            border-radius: 10px;
+            border: 2px solid black;
+            margin-bottom: 5px;
+        }
+        button{
+            padding: 20px;
+            font-size: 20px;
+            cursor: pointer;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div onmouseover="OnMouse()" onmouseout="mouseOut()" ></div>
+    <button onclick="change()" >Click me</button>
+    <button onmousedown="changeColor()" onmouseup="changeC()">Click me</button>
+
+    <script src="script4.js"></script>
+</body>
+</html>
